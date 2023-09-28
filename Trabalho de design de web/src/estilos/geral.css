@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+header{
+    background: brown ;
+    height: 6rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    top: 0;
+}
+
+header ol{
+    display: flex;
+    gap: 8rem;
+}
+
+header ol, header li{
+    list-style: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0.5rem; 
+    border-radius: 5px;
+}
+
+
+main{
+    text-align: center;
+    width: 400px;
+    transform: translateX(120%); 
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
